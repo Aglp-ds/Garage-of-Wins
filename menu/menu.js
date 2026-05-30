@@ -54,15 +54,15 @@ function personaje_mostrado(){
         
     }
     if (estado_celeste){ 
-        document.getElementById("personaje").src = "scripts/Personaje-celeste.png";
+        document.getElementById("personaje").src = "scripts/personaje-celeste.png";
         document.getElementById("carro").src = "scripts/carro-celeste-sinp.png";
     }
     if (estado_blanco){       
-        document.getElementById("personaje").src = "scripts/Personaje-blanco.png";
+        document.getElementById("personaje").src = "scripts/personaje-blanco.png";
         document.getElementById("carro").src = "scripts/carro-blanco-sinp.png";
     }
     if (estado_negro){ 
-        document.getElementById("personaje").src = "scripts/Personaje-negro.png";
+        document.getElementById("personaje").src = "scripts/personaje-negro.png";
         document.getElementById("carro").src = "scripts/carro-negro-sinp.png";
     }
 }
